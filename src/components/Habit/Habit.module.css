@@ -1,0 +1,52 @@
+.container {
+    width: 80%;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "Courier New", Courier, monospace;
+    box-shadow: 3px 4px 2px rgb(22, 21, 21);
+}
+
+.container h3 {
+    font-size: 2.4rem;
+    color: gray;
+    text-decoration: underline 3px blueviolet;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.container ion-icon {
+    font-size: 2.5rem;
+}
+
+.container ion-icon:hover {
+    box-shadow: 3px 4px 1px rgb(22, 21, 21), -3px -4px 1px rgb(22, 21, 21);
+}
+
+.container button {
+    padding: 7px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 3px 4px 2px rgb(22, 21, 21);
+}
+
+.container button:hover {
+    box-shadow: 3px 4px 2px rgb(22, 21, 21) inset;
+}

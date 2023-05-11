@@ -1,0 +1,30 @@
+.container {
+    width: 100vw;
+    height: 85vh;
+    background-image: url("../../assets/images/habit-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button {
+    position: absolute;
+    top: 68%;
+    left: 45%;
+    background-color: red;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 3px 4px 2px rgb(22, 21, 21);
+}
+
+.container button:hover {
+    box-shadow: 3px 4px 2px rgb(22, 21, 21) inset;
+}

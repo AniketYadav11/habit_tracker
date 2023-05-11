@@ -1,0 +1,29 @@
+.container {
+    background-color: white;
+    width: 80%;
+    height: auto;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 3px 4px 2px rgb(22, 21, 21);
+}
+
+.container label {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.container input {
+    border: 2px solid black;
+    font-size: 1.5rem;
+    padding: 4px;
+    margin-bottom: 1.3rem;
+}
+
+.container input::placeholder {
+    color: gray;
+}

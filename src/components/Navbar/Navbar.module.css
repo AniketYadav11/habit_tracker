@@ -1,0 +1,33 @@
+.nav {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0.7rem 0;
+    background-color: lightblue;
+}
+
+.nav h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 5px 6px 8px gray;
+}
+
+.nav div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: transform 0.5s ease-in-out;
+}
+
+.link:hover {
+    color: gray;
+    transform: scale(1.3);
+}
